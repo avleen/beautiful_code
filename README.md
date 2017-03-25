@@ -19,6 +19,12 @@ Beautiful code isn't writing by one person in isolation. We write it together in
 teams and communities across the internet, and your contributions are welcome
 here.
 
+Please help by contributing problems and how they can be solved in your language
+of choice.
+It can also be helpful to describe how basics like loops operate in your
+language, if that hasn't been described, before you dive into problems.
+This provides some grounding for people new to the language.
+
 Code is organised under language-specific directories.
 Each file should focus around a topic (loops, concurrency, sub-processes, etc).
 Add comments and explanations of what your code is doing!
