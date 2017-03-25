@@ -15,7 +15,7 @@ implement. But it is always simple to step through and understand.
 
 # Contributing
 
-Beautiful code isn't writing by one person in isolation. We write it together in
+Beautiful code isn't written by one person in isolation. We write it together in
 teams and communities across the internet, and your contributions are welcome
 here.
 
