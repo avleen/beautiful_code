@@ -120,3 +120,25 @@ fox: brown
 dog: lazy
 act: jumping
 ```
+
+## Finding a number which occurs only once
+
+If you have a list of numbers, find the number which occurs only once
+
+```python
+from collections import defaultdict
+arr = [ 1, 3, 4, 2, 6, 3, 6, 5, 8, 2, 4, 1, 9, 0, 7, 1, 0 ]
+d = defaultdict(int)
+for i in arr:
+    d[i] += 1
+for k, v in d.items():
+    if v == 1:
+        print '%s occurred only once' % k
+```
+
+## Select all of the even numbers from a list
+
+```python
+arr = [ 1, 3, 4, 2, 6, 3, 6, 5, 8, 2, 4, 1, 9, 0, 7, 1, 0 ]
+evens = [ x for x in arr if x%2 == 0 ]
+```
