@@ -38,7 +38,7 @@ Output:
 arr = [ 1, 3, 4, 2, 6, 3, 6, 5, 8, 2, 4, 1, 9, 0, 7, 1, 0 ]
 
 for idx, num in enumerate(arr):
-    if num % 2 == 0:
+    if num % 2 == 0 and num > 0:
         # We found a positive number
         del arr[idx]
         arr.insert(0, num)
@@ -48,5 +48,5 @@ print arr
 Output:
 
 ```
-[0, 0, 4, 2, 8, 6, 6, 2, 4, 1, 3, 3, 5, 1, 9, 7, 1]
+[4, 2, 8, 6, 6, 2, 4, 1, 3, 3, 5, 1, 9, 0, 7, 1, 0]
 ```
