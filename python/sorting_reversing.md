@@ -32,7 +32,7 @@ Output:
 'dog brown lazy the over jumps fox quick a'
 ```
 
-## Move positive intergers to the front of a list
+## Move positive integers to the front of a list
 
 ```python
 arr = [ 1, 3, 4, 2, 6, 3, 6, 5, 8, 2, 4, 1, 9, 0, 7, 1, 0 ]
